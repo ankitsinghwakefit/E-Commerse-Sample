@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+.mynav-style {
+    font-size: 35px !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.product-list-title {
+    text-align: center !important;
+    margin-top: 60px !important;
+}
+.productList-container {
+    margin: 80px auto;
+    width: 80%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.productList-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.product-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(218, 214, 214);
+    border-radius: 10px;
+    margin: 30px 30px;
 }
 
-.App-link {
-  color: #61dafb;
+.product-details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px 10px;
+    align-items: center;
+    font-size: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.product-details-style {
+    width: 100%;
+    border-top: 1px solid rgb(173, 171, 171);
+    background-color: #eee;
+}
+
+@media only screen and (max-width: 600px) {
+    .product-details-flex{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: space-around !important;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .product-details-flex{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: space-around !important;
+    }
 }
