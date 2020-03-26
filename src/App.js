@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import NavBar from "./components/NavBar";
-import Cart from "./components/Cart";
+import Cart from "./components/cart/Cart";
 import Defaults from "./components/Default";
 import Details from "./components/Details";
 import Product from "./components/Product";

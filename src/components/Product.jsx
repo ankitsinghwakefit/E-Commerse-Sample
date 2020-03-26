@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 
 class Product extends React.Component {
   render() {
-    console.log(this.props.product);
     const { id, title, img, info, price, inCart } = this.props.product;
     return (
       <div>

@@ -1,6 +1,6 @@
 import React from "react";
 
-class Cart extends React.Component{
+class CartTitle extends React.Component{
     constructor(){
         super()
     }
@@ -8,10 +8,10 @@ class Cart extends React.Component{
     render(){
         return(
             <div>
-                <h1>Cart</h1>
+                <h1 className="title product-list-title">Your Cart</h1>
             </div>
         )
     }
 }
 
-export  default Cart;
+export  default CartTitle;
